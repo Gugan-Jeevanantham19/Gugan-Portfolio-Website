@@ -8,7 +8,9 @@
   --muted: #6c757d;
 }
 html,body{
-  height:100%;
+  height:auto !important;
+  overflow-x: hidden !important;
+   overflow-y: auto !important;
 }
 body{
   font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
@@ -56,3 +58,4 @@ footer{
   .hero-photo{ display:none; }
   body{ padding-top:64px; }
 }
+
